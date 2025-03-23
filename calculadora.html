@@ -8,21 +8,21 @@
 </head>
 <body>
     <h1>Calculadora HTML</h1>
-    <form action="">
+    <form id="formulario" action="">
 
         <label for="op1"></label>
-        <input type="number" placeholder="op1" required>
+        <input type="number" id="op1" placeholder="Operador 1" required>
 
         <label for="operador"></label>
-        <input type="text" placeholder="+,-,*,/" required>
+        <input type="text" id="operador" placeholder="+,-,*,/" required>
 
         <label for="op2"></label>
-        <input type="number" placeholder="op2" required>
+        <input type="number" id="op2" placeholder="Operador 2" required>
 
-        <button type="submit">Calcular...</button>
+        <button type="submit" id="submit">Calcular...</button>
 
     </form>
 
-    <div class="resultado"></div>
+    <div class="resultado" id="resultado"></div>
 </body>
 </html>
