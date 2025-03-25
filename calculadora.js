@@ -21,6 +21,14 @@ if (operador == "+") {
     } else {
         resultado = op1/op2
     }
+}else if (operador == "**") {
+    resultado = op1**op2;
+} else if (operador == "%") {
+    if (op2 == 0) {
+        resultado = "ERROR: ¡No se puede dividir por cero!";
+    } else{
+    resultado = op1%op2;
+    }
 }else {
     resultado =  "ERROR: Operador No Válido!"
 }
